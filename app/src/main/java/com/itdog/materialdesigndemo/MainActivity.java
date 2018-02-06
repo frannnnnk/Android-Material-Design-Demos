@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.itdog.materialdesigndemo.examples.AppBarLayoutActivity;
 import com.itdog.materialdesigndemo.examples.BehaviorActivity;
 import com.itdog.materialdesigndemo.examples.CollapsingToolBarLayoutActivity;
 import com.itdog.materialdesigndemo.examples.FitSystemWindowActivity;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         exampleLists.add(new Pair<String, Class<? extends AppCompatActivity>>("CollapsingToolBarLayout", CollapsingToolBarLayoutActivity.class));
         exampleLists.add(new Pair<String, Class<? extends AppCompatActivity>>("自定义Behavior", BehaviorActivity.class));
         exampleLists.add(new Pair<String, Class<? extends AppCompatActivity>>("FitSystemWindow", FitSystemWindowActivity.class));
+        exampleLists.add(new Pair<String, Class<? extends AppCompatActivity>>("AppBarLayout Demo", AppBarLayoutActivity.class));
     }
 
     private RecyclerView createRecyclerView() {
